@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .textsize{
+                font-size:20px;
+            } 
+            .top1{
+                float:left;
+            }
+            .top2{
+                margin-left:1040px;
+            }
+            .clear{
+                clear:both;
+            }
+            .left{
+                position:relative;
+                right:40px;
+            }
+            .border1{
+                float:left;
+                border:1px solid none;  
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-left:10px;
+                padding-right:10px;
+                width:300px;
+            }
+            .space{
+                margin-top:20px;
+            }
+            .border2{
+                float:left;
+                margin-left:100px;
+                border:1px solid none;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-left:10px;
+                padding-right:10px;
+            }
+        </style>
+    </head>
+    <body>
+        <form method="post" action="/Admission-war/signUp">
+            <div class="textsize">
+               <!-- <div class="top1">Application number:<input type="text" name="apnum"/></div>
+                <div class="top2">Register number:<input type="text" name="regnum"/></div> -->
+                <div class="clear"></div>
+                <center><h1> COIMBATORE INSTITUTE OF TECHNOLOGY</H1></center>
+                <!--<img src="cit.jpg" alt="college logo" width="150" height="150" align="left">-->
+                <div class="left"><center>(An autonomous government aided institution,Affiliated to anna university)<br></br>
+                        Coimbatore:641 014, Phone: 0422-2574071, 2574072. Fax: 0422-2575020<br></br></center></div>
+                <table border="1" width="100%" >
+              <tr>
+			  <th>APPLICATION FOR ADMISSION TO<br></br>
+                  M.Sc. INTEGRATED COURSE
+				  </tr></table>
+                <div class="space"></div>
+<!--                <div class="border1">Course</div>
+                <div  class="border2"> <select name="course">
+                   
+          <option>course</option>
+                              
+                          
+          <option value="Software systems">Software systems</option>
+          <option value="data science">data science</option>
+          <option value="decision making">decision making</option>
+          </select></div>-->
+                <div class="clear"></div>
+<!--                <div class="border1">1:  Application Received on:</div>
+                <div class="border2"> <input type="text" name=application" /></div>
+                <div class="clear"></div>
+                <div class="border1">2:  Called for interview/Rejected:</div>
+                <div class="border2"><input type="text" name="interview" /></div>
+                <div class="clear"></div>
+                <div class="border1"> 3: Date and time of interview:</div>
+                <div class="border2"><input type="text" name="date" /></div>
+                <div class="clear"></div>
+                <div class="border1"> 4: Aggregate:</div>
+                <div class="border2"><input type="text" name="aggregate" /></div>
+                <div class="clear"></div>
+                <div class="border1">5: Selected:</div>
+                <div class="border2"><input type="radio" name="selected" value="Yes">Yes       <input type="radio" name="selected" value="No">No</div>
+                <div class="clear"></div>
+                <div class="border1"> 6: Remarks:</div>
+                <div class="border2"><input type="text" name="remarks" /></div>
+                <div class="clear"></div>
+                <hr Minimalwidth="1" Largesize="500">-->
+                 <center><font size="5">(FILL IN ALL THE PARTICULARS IN BOXES IN BLOCK LETTERS.)</center>
+           </font>		
+           <div class="border1">Course</div>
+                <div  class="border2"> <select name="course">
+                   
+          <option>course</option>
+                              
+                          
+          <option value="Software systems">Software systems</option>
+          <option value="data science">data science</option>
+          <option value="decision making">decision making</option>
+          </select></div>
+           <div class="clear"></div>
+                <div class="border1">1. Name of the Applicant:</div>
+                <div class="border2"><input type="text" name="name" required></div>
+                <div class="clear"></div>
+                <div class="border1">2. Father's/Guardian's Name:</div>
+                <div class="border2"><input type="text" name="fgname" ></div>
+                <div class="clear"></div>
+                <div class="border1"> 3. Mother's Name:</div>
+                <div class="border2"><input type="text" name="mname" ></div>
+                <div class="clear"></div>
+                <div class="border1">  4. Date of Birth : </div>
+                <div class="border2"><select name="DOBMonth" >
+	<option> - Month - </option>
+	<option value="January">January</option>
+	<option value="Febuary">Febuary</option>
+	<option value="March">March</option>
+	<option value="April">April</option>
+	<option value="May">May</option>
+	<option value="June">June</option>
+	<option value="July">July</option>
+	<option value="August">August</option>
+	<option value="September">September</option>
+	<option value="October">October</option>
+	<option value="November">November</option>
+	<option value="December">December</option>
+</select>
+
+<select name="DOBDay" required>
+	<option> - Day - </option>
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+	<option value="11">11</option>
+	<option value="12">12</option>
+	<option value="13">13</option>
+	<option value="14">14</option>
+	<option value="15">15</option>
+	<option value="16">16</option>
+	<option value="17">17</option>
+	<option value="18">18</option>
+	<option value="19">19</option>
+	<option value="20">20</option>
+	<option value="21">21</option>
+	<option value="22">22</option>
+	<option value="23">23</option>
+	<option value="24">24</option>
+	<option value="25">25</option>
+	<option value="26">26</option>
+	<option value="27">27</option>
+	<option value="28">28</option>
+	<option value="29">29</option>
+	<option value="30">30</option>
+	<option value="31">31</option>
+</select>
+
+<select name="DOBYear" required>
+	<option> - Year - </option>
+	<option value="1993">1990</option>
+	<option value="1992">1991</option>
+	<option value="1991">1992</option>
+	<option value="1990">1993</option>
+	<option value="1990">1994</option>
+	<option value="1990">1995</option>
+	<option value="1990">1996</option>
+	<option value="1990">1997</option>
+	<option value="1990">1998</option>
+	<option value="1990">1999</option>
+	<option value="1990">2000</option>
+	<option value="1990">2001</option>
+	<option value="1990">2002</option>
+	
+		
+</select></div>
+                <div class="clear"></div>
+                <div class="border1">5. Occupation:</div>
+                <div class="border2"><input type="text" name="occupation" ></div>
+                <div class="clear"></div>
+                <div class="border1">6. Annual Income in Rs:</div>
+                <div class="border2"><input type="text" name="Income" ></div>
+                <div class="clear"></div>
+                <div class="border1">7. Address for communication with PINCODE:</div>
+                <div class="border2"><textarea type="text" name="Address" required></textarea></div>
+                <div class="clear"></div>
+                <div class="border1">8. Email :</div>
+                <div class="border2"><input type="email" name="email" required/></div>
+                <div class="clear"></div>
+                <div class="border1">9. Telephone: </div>
+                <div class="border2"><input type="text" name="tel" /></div>
+                <div class="clear"></div>
+                <div class="border1">10. Sex:</div>
+                <div class="border2"><input type="radio" name="gender" value="female" checked>Female      <input type="radio" name="gender" value="male">Male</div>
+                <div class="clear"></div>
+                <div class="border1">11. Mobile Number:</div>
+                <div class="border2"><input type="text" name="mnum" required/></div>
+                <div class="clear"></div>
+                <div class="border1">12. Nationality:</div>
+                <div class="border2"><input type="radio" name="Nationality" value="Indian" checked>Indian <input type="radio" name="Nationality" value="Others">Others</div>
+                <div class="clear"></div>
+                <div class="border1">13. Religion:</div>
+                <div class="border2"><input type="radio" name="Religion" value="Hindu" checked>Hindu <input type="radio" name="Religion" value="Muslim">Muslim<input type="radio" name="Religion" value="Christian">Christian<input type="radio" name="Religion" value="Others">Others</div>
+                <div class="clear"></div>
+                <div class="border1">14. Mother Tongue:</div>
+                <div class="border2"><input type="text" name="mtongue"></div>
+                <div class="clear"></div>
+                <div class="border1">15. Community:</div>
+                <div class="border2"><input type="radio" name="community" value="ST">ST<input type="radio" name="community" value="SC">SC<input type="radio" name="community" value="MBC">MBC<input type="radio" name="community" value="BC" checked>BC
+			<input type="radio" name="community" value="BCM">BC MUSLIM<input type="radio" name="community" value="OC">OC</div>
+                <div class="clear"></div>
+                <br>
+                <br>
+                <b><font size="4"> Mandatory Fields for Communication</font></b><br></br>
+			<p> EDUCATIONAL QUALIFICATION</p>
+                        <table border="1" width="100%" >
+			<colgroup span="7" width="15%">
+			</colgroup>
+			<tr>
+			<td colspan="7">X STANDARD / EQUIVALENT **</td>
+			</tr>
+			<tr>
+                            <td colspan="1">Name of the examination<input type="text" name="exam_name"></td>
+			<td colspan="1">REGISTER NUMBER<input type="text" name="reg_num"></td>
+			<td colspan="1">Month & year of passing<input type="text" name="yr_pass"></td>
+			<td colspan="1">Total marks obtained<input type="text" name="tot_mark"></td>
+			<td colspan="1">Maximum marks<input type="text" name="max_mark"></td>
+			<td colspan="1">No.of attempts<input type="text" name="no_attempt"></td>
+                        <td colspan="1">School name with full address<textarea input type="text" name="schol_addr"></textarea></td>
+			</tr>
+                        </table>
+                        <br>
+                        <br>
+                        <br>
+                        <table border="1" width="100%" >
+			<colgroup span="7" width="15%">
+			</colgroup>
+			<tr>
+			<td colspan="3">HSC / EQUIVALENT **</td>
+			
+			<td colspan="4">REGISTER Number <input type="text" name="reg_num"></td>
+			
+			</tr>
+			<tr>
+		
+			<td colspan="2"><center>SUBJECT</center></td>
+			<td colspan="1">maximum marks</td>
+			<td colspan="1">Percentage of marks obtained</td>
+		
+			<td colspan="1">no.of attempts</td>
+			
+			<td colspan="1">Month & year of passing</td>
+		   
+		    
+			</tr>
+			<tr>
+			<td colspan="1">A</td>
+			<td colspan="1">Mathematics</td>
+			<td colspan="1"><input type="text" name="mat_m"></td>
+			<td colspan="1"><input type="text" name="mat_p" required></td>
+			<td colspan="1"><input type="text" name="mat_n"></td>
+			<td colspan="1"><input type="text" name="mat_mo"></td> 
+			
+			</tr>
+			<tr>
+			<td colspan="1">B</td>
+			<td colspan="1">Physics</td>
+			<td colspan="1"><input type="text" name="phy_m"></td>
+                        <td colspan="1"><input type="text" name="phy_p" required></td>
+			<td colspan="1"><input type="text" name="phy_n"></td>
+			<td colspan="1"><input type="text" name="phy_mo"></td>
+                        
+			</tr>
+			<tr>
+			<td colspan="1">C</td>
+			<td colspan="1">Chemistry</td>
+			<td colspan="1"><input type="text" name="che_m"></td>
+			<td colspan="1"><input type="text" name="che_p" required></td>
+			<td colspan="1"><input type="text" name="che_n"></td>
+			<td colspan="1"><input type="text" name="che_mo"></td>
+                        
+			</tr>
+			<tr>
+            <td colspan="1">D</td>
+			<td colspan="1">English</td>
+			<td colspan="1"><input type="text" name="eng_m"></td>
+			<td colspan="1"><input type="text" name="eng_p"></td>
+			<td colspan="1"><input type="text" name="eng_n"></td>
+			<td colspan="1"><input type="text" name="eng_mo"></td>
+			</tr>
+			<tr>
+            <td colspan="1">E</td>
+			<td colspan="1">Language</td>
+			<td colspan="1"><input type="text" name="lan_m"></td>
+			<td colspan="1"><input type="text" name="lan_p"></td>
+			<td colspan="1"><input type="text" name="lan_n"></td>
+			<td colspan="1"><input type="text" name="lan_mo"></td>
+			</tr>
+			<tr>
+            <td colspan="1">F</td>
+			<td colspan="1">Other subjects</td>
+			<td colspan="1"><input type="text" name="oth_m"></td>
+			<td colspan="1"><input type="text" name="oth_p"></td>
+			<td colspan="1"><input type="text" name="oth_n"></td>
+			<td colspan="1"><input type="text" name="oth_mo"></td>
+			</tr>
+			<tr>
+            <td colspan="1"></td>
+			<td colspan="1"></td>
+			<td colspan="1"></td>
+			<td colspan="1"></td>
+			<td colspan="1"></td>
+			<td colspan="1"></td>
+    			</tr>
+			
+			</table>
+                        <font size="5">
+			<p> Particulars for ST/SC/DNC/MBC/BC Only**</p>
+			</font>
+                        
+                <div class="border1">A:Name of the Caste:</div>
+                <div class="border2"><input type="text" name="caste"></div>
+                <div class="clear"></div>
+                <div class="border1">B:Sl. No. of the Community Certificate:</div>
+                <div class="border2"><input type="text" name="ccertificate"/></div>
+                <div class="clear"></div>
+                 <div class="border1">C:Date of the Certificate:</div>
+                <div class="border2"><input type="text" name="date certificate"/></div>
+                <div class="clear"></div>
+                 <div class="border1">D:Office of the issue of the Certificate:</div>
+                <div class="border2"><input type="text" name="office certificate"/></div>
+                <div class="clear"></div>
+                 <div class="border1">E:Designation of the officer issuing the certificate:</div>
+                <div class="border2"><input type="text" name="issue certificate"/></div>
+                <div class="clear"></div> 
+                <div class="border1"></div>
+                <div class="border2"></div>
+                <div class="clear"></div>
+                <center><input type="submit" value="Submit" />
+		
+                    <input type="Reset" value="Reset" /></center>
+        </form>
+                
+                
+                
+                
+                
+            </div>   
+            
+        </form>
+    </body>
+</html>
